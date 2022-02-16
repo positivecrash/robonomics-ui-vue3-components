@@ -1,0 +1,20 @@
+body {
+	--font-size: 1.2rem;
+    --font-family: 'Roboto Mono', Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+	
+	--space: 1rem;
+
+	--color-blue: #3333CE;
+	--color-green: #8CD517;
+	--color-red: #CE3333;
+	--color-gray: #AEADB4;
+	--color-gray-light: #EBEAF0;
+
+	--color-text: #000000;
+	--color-link: var(--color-blue);
+	--color-link-hover: var(--color-green);
+
+	--animation-bump: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+
+	--size-logo-title-gorizontal: 4rem;
+}

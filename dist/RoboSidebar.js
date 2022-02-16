@@ -1,0 +1,1 @@
+"use strict";var e=require("./RoboSidebar.vue_vue_type_script_lang.js"),_=require("./RoboSidebar.vue_vue_type_template_id_57865c9c_lang.js");require("./RoboSidebar.vue_vue_type_style_index_0_id_57865c9c_scoped_true_lang.js"),e.script.render=_.render,e.script.__scopeId="data-v-57865c9c",e.script.__file="src/components/RoboSidebar.vue";

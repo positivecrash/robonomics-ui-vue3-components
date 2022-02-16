@@ -1,0 +1,9 @@
+html {
+    font-size: 100%;
+}
+
+html, #app {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    line-height: 1.5;
+}

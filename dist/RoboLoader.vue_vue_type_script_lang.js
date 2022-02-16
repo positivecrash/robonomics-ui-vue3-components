@@ -1,0 +1,1 @@
+"use strict";var e=require("vue").defineComponent({name:"RoboLoader",props:{type:{type:String,default:"default",validator:function(e){return-1!==["default"].indexOf(e)}},color:{type:String,default:null}},computed:{css(){if(this.color)return{"--loader-color":this.color}}}});exports.script=e;

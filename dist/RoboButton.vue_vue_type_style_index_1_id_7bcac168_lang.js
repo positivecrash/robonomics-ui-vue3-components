@@ -1,0 +1,1 @@
+"use strict";require("./style-inject.es.js").styleInject(".robo-btn .robo-loader{margin-right:var(--space)}.robo-btn .robo-loader--stroke{stroke:var(--color)!important}.robo-btn .robo-loader--fill{fill:var(--color)!important}");

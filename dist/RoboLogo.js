@@ -1,0 +1,1 @@
+"use strict";var e=require("./RoboLogo.vue_vue_type_script_lang.js"),_=require("./RoboLogo.vue_vue_type_template_id_6e9311c5_lang.js");require("./RoboLogo.vue_vue_type_style_index_0_id_6e9311c5_scoped_true_lang.js"),e.script.render=_.render,e.script.__scopeId="data-v-6e9311c5",e.script.__file="src/components/RoboLogo.vue";
