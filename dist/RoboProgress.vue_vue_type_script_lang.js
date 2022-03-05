@@ -1,0 +1,1 @@
+"use strict";var r=require("vue").defineComponent({name:"RoboProgress",props:{progress:{type:Number,default:null}},computed:{classList(){return{"robo-progress":!0,"robo-progress-loading":!this.progress,"robo-progress-number":this.progress}}}});exports.script=r;

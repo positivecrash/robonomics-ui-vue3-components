@@ -22,7 +22,7 @@
     }
 
     .robo-sidebar-item {
-        font-weight: 300;
+        /* font-weight: 300; */
         text-decoration: none;
         color: var(--color-text);
         padding-left: var(--space);

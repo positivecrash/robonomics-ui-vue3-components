@@ -1,0 +1,1 @@
+"use strict";require("./style-inject.es.js").styleInject(".robo-card-title[data-v-8ec2ac04]{font-weight:700;letter-spacing:1px;text-transform:uppercase}.robo-card-title--1[data-v-8ec2ac04]{font-size:calc(var(--font-size)*1.5)}.robo-card-title--2[data-v-8ec2ac04]{font-size:calc(var(--font-size)*1.2)}");

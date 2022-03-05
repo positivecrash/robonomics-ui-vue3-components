@@ -1,0 +1,1 @@
+"use strict";var e=require("vue");exports.render=function(r,o,s,l,t,n){const c=e.resolveComponent("robo-progress");return e.openBlock(),e.createElementBlock("div",{class:e.normalizeClass(r.classList)},[r.loading||r.progress?(e.openBlock(),e.createBlock(c,{key:0,progress:r.progress},null,8,["progress"])):e.createCommentVNode("v-if",!0),e.renderSlot(r.$slots,"default")],2)};

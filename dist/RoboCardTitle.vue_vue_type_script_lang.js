@@ -1,0 +1,1 @@
+"use strict";var e=require("vue").defineComponent({name:"RoboCardTitle",props:{size:{type:Number,default:1,validator:e=>["1","2","3"].includes(e)}},computed:{classList(){return{"robo-card-title":!0,[`robo-card-title--${this.size}`]:!0}}}});exports.script=e;

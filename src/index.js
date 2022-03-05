@@ -6,14 +6,16 @@ import {
     faGear,
     faHouse,
     faArrowUpRightFromSquare,
-    faCloud
+    faCloud,
+    faSortDown
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(
     faGear,
     faHouse,
     faArrowUpRightFromSquare,
-    faCloud
+    faCloud,
+    faSortDown
 )
 
 /* Bundle */
@@ -40,6 +42,13 @@ export { default as RoboLogo } from './components/RoboLogo.vue'
 export { default as RoboBreadcrumbs } from './components/RoboBreadcrumbs.vue'
 export { default as RoboSidebar } from './components/RoboSidebar.vue'
 export { default as RoboSidebarItem } from './components/RoboSidebarItem.vue'
+export { default as RoboCard } from './components/RoboCard.vue'
+export { default as RoboProgress } from './components/RoboProgress.vue'
+export { default as RoboCardSection } from './components/RoboCardSection.vue'
+export { default as RoboCardTitle } from './components/RoboCardTitle.vue'
+export { default as RoboCardLabel } from './components/RoboCardLabel.vue'
+export { default as RoboCardLabelSection } from './components/RoboCardLabelSection.vue'
+export { default as RoboSelect } from './components/RoboSelect.vue' /* ! */
 
 /* Other */
 // import './styles/index.css'

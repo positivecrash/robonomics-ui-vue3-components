@@ -1,0 +1,1 @@
+"use strict";require("./style-inject.es.js").styleInject(".robo-card[data-v-1588e6ac]{background-color:var(--color-card-background);color:var(--color-text);position:relative}.robo-card--outlined[data-v-1588e6ac]{background-color:transparent;border:1px solid var(--color-text)}.robo-card--disabled[data-v-1588e6ac]{filter:grayscale(1);opacity:.8;pointer-events:none}");

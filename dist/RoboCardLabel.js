@@ -1,0 +1,1 @@
+"use strict";var e=require("./RoboCardLabel.vue_vue_type_script_lang.js"),_=require("./RoboCardLabel.vue_vue_type_template_id_13b2589a_lang.js");require("./RoboCardLabel.vue_vue_type_style_index_0_id_13b2589a_scoped_true_lang.js"),e.script.render=_.render,e.script.__scopeId="data-v-13b2589a",e.script.__file="src/components/RoboCardLabel.vue";

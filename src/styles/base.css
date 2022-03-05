@@ -5,6 +5,7 @@ body {
 	--space: 1rem;
 
 	--color-blue: #3333CE;
+	--color-blue-light: #9898fa;
 	--color-green: #8CD517;
 	--color-red: #CE3333;
 	--color-gray: #AEADB4;
@@ -13,8 +14,25 @@ body {
 	--color-text: #000000;
 	--color-link: var(--color-blue);
 	--color-link-hover: var(--color-green);
+	--color-card-background: #ffffff;
+	--color-body: var(--color-gray-light);
+
+	--input-bg: var(--color-card-background);
+	--input-text-color: var(--color-text);
+	--input-border-color: var(--color-text);
+	--input-border-width: 1px;
+	--input-padding-g: var(--space);
+	--input-padding-v: var(--space);
+	--select-tog-size: 1rem;
 
 	--animation-bump: cubic-bezier(0.6, 0.04, 0.98, 0.335);
 
 	--size-logo-title-gorizontal: 4rem;
+
+	--card-label-height: calc( var(--space) * 1.5);
+}
+
+
+body {
+	background-color: var(--color-body);
 }

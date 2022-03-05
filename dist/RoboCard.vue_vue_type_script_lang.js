@@ -1,0 +1,1 @@
+"use strict";var e=require("vue").defineComponent({name:"RoboCard",props:{outlined:{type:Boolean,default:!1},disabled:{type:Boolean,default:!1},loading:{type:Boolean,default:!1},progress:{type:Number,default:null}},computed:{classList(){return{"robo-card":!0,"robo-card--outlined":this.outlined,"robo-card--disabled":this.disabled}}}});exports.script=e;

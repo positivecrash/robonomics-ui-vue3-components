@@ -4,5 +4,12 @@ import RoboLogo from './RoboLogo.vue'
 import RoboBreadcrumbs from './RoboBreadcrumbs.vue'
 import RoboSidebar from './RoboSidebar.vue'
 import RoboSidebarItem from './RoboSidebarItem.vue'
+import RoboCard from './RoboCard.vue'
+import RoboProgress from './RoboProgress.vue'
+import RoboCardSection from './RoboCardSection.vue'
+import RoboCardTitle from './RoboCardTitle.vue'
+import RoboCardLabel from './RoboCardLabel.vue'
+import RoboCardLabelSection from './RoboCardLabelSection.vue'
+import RoboSelect from './RoboSelect.vue'
 
-export default { RoboButton, RoboLoader, RoboLogo, RoboBreadcrumbs, RoboSidebar, RoboSidebarItem }
+export default { RoboButton, RoboLoader, RoboLogo, RoboBreadcrumbs, RoboSidebar, RoboSidebarItem, RoboCard, RoboProgress, RoboCardSection, RoboCardTitle, RoboCardLabel, RoboCardLabelSection, RoboSelect }
