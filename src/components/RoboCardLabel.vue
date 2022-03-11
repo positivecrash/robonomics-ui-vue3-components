@@ -26,6 +26,7 @@ export default defineComponent({
 <style scoped>
   .robo-card .robo-card-label {
     position: absolute;
+    z-index: 1;
     left: calc(var(--space) * (-1));
     top: calc(var(--card-label-height) * 0.5 * (-1));
     height: var(--card-label-height);
@@ -42,6 +43,7 @@ export default defineComponent({
   }
 
   .robo-card--outlined .robo-card-label {
-    border: 1px solid var(--color-text)
+    border: 1px solid var(--card-border-color);
+    background-color: var(--color-card-background);
   }
 </style>

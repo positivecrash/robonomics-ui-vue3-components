@@ -48,7 +48,7 @@ export { default as RoboCardSection } from './components/RoboCardSection.vue'
 export { default as RoboCardTitle } from './components/RoboCardTitle.vue'
 export { default as RoboCardLabel } from './components/RoboCardLabel.vue'
 export { default as RoboCardLabelSection } from './components/RoboCardLabelSection.vue'
-export { default as RoboSelect } from './components/RoboSelect.vue' /* ! */
+export { default as RoboSelect } from './components/RoboSelect.vue'
 
 /* Other */
 // import './styles/index.css'

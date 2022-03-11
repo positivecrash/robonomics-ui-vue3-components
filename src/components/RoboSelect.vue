@@ -1,7 +1,7 @@
 <template>
     <div class="robo-select">
-      <select>
-        <option v-for="option in options" :key="option.id">{{option}}</option>
+      <select :name="name">
+        <option v-for="(option,index) in options" :key="index" :value="index">{{option}}</option>
       </select>
 
       <font-awesome-icon icon="sort-down" class="icon" />
@@ -15,9 +15,14 @@ export default defineComponent({
   name: 'RoboSelect',
 
   props: {
+    name: {
+      type: String,
+      required: true
+    },
     options: {
       type: Array,
-      default: null
+      default: null,
+      required: true
     },
   }
 
@@ -49,6 +54,8 @@ export default defineComponent({
     --webkit-appearance: none;
     appearance: none;
     border: 0;
+    display: block;
+    width: 100%;
 
     padding-left: var(--input-padding-g);
     padding-right: calc(var(--input-padding-g) + var(--select-tog-size));
@@ -62,23 +69,5 @@ export default defineComponent({
     top: calc(50% - var(--select-tog-size) * 0.5);
     pointer-events: none;
   }
-
-  /* select {
-    border: 0;
-    font-family: var(--font-family);
-    font-size: var(--font-size);
-    font-weight: bold;
-    --webkit-appearance: none;
-    appearance: none;
-    cursor: pointer;
-
-    background-color: var(--input-bg);
-    color: var(--input-text-color);
-    border: var(--input-border-width) solid var(--input-border-color);
-    padding-left: var(--input-padding-g);
-    padding-right: var(--input-padding-g);
-    padding-top: var(--input-padding-v);
-    padding-bottom: var(--input-padding-v);
-  } */
 
 </style>

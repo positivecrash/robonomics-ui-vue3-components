@@ -25,11 +25,14 @@ body {
 	--input-padding-v: var(--space);
 	--select-tog-size: 1rem;
 
+	--card-padding: calc(var(--space) * 2);
+
 	--animation-bump: cubic-bezier(0.6, 0.04, 0.98, 0.335);
 
 	--size-logo-title-gorizontal: 4rem;
 
 	--card-label-height: calc( var(--space) * 1.5);
+	--card-border-color: var(--color-card-background);
 }
 
 

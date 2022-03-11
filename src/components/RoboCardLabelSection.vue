@@ -5,11 +5,11 @@
     >
         <div class="robo-card-label-section-infoTog" v-if="info">i</div>
 
-        <div class="robo-card-label-section-content" v-if="!select">
+        <div class="robo-card-label-section-content" v-if="!selectOptions">
           <slot/>
         </div>
 
-        <robo-select v-if="select" :options="select" />
+        <robo-select v-if="selectOptions && selectName" :options="selectOptions" :name="selectName" />
     </div>
 </template>
 
@@ -32,8 +32,12 @@ export default defineComponent({
       type: Boolean,
       default: false
     },
-    select: {
+    selectOptions: {
       type: Array,
+      default: null
+    },
+    selectName: {
+      type: String,
       default: null
     },
     
@@ -46,7 +50,7 @@ export default defineComponent({
         [`robo-card-label-section--status`]: this.status,
         [`robo-card-label-section--${this.status}`]: this.status,
         [`robo-card-label-section--info`]: this.info,
-        [`robo-card-label-section--select`]: this.select,
+        [`robo-card-label-section--select`]: this.selectOptions,
       };
     }
   }
@@ -65,8 +69,8 @@ export default defineComponent({
     position: relative;
   }
 
-  .robo-card-label-section:not(:first-child) {
-    border-left: 1px solid var(--color-card-background);
+  .robo-card--solid .robo-card-label-section:not(:first-child) {
+    border-left: 1px solid var(--card-border-color);
   }
 
   .robo-card-label-section--status {
@@ -89,11 +93,15 @@ export default defineComponent({
 
 
   .robo-card-label-section-infoTog, select {
-    background-color: var(--color-link);
-    color: var(--color-card-background);
     padding-left: var(--padding);
     padding-right: var(--padding);
     cursor: pointer;
+    max-height: 100%;
+  }
+
+  .robo-card-label-section--info, select {
+    background-color: var(--color-link);
+    color: var(--color-card-background);
   }
 
   .robo-card-label-section--info, .robo-card-label-section--select {
@@ -104,7 +112,7 @@ export default defineComponent({
   .robo-card-label-section--info .robo-card-label-section-content {
     display: none;
     position: absolute;
-    top: calc(100% + 1px);
+    top: 100%;
     left: 0;
     min-width: 10rem;
     max-width: 15rem;
@@ -117,6 +125,10 @@ export default defineComponent({
   .robo-card-label-section--info:focus-within .robo-card-label-section-content {
     display: block;
   }
+
+  .robo-card-label-section--info:focus-within, .robo-card-label-section--info:focus-within .robo-card-label-section-content {
+    background-color: var(--color-text);
+  }
 </style>
 
 <style>
@@ -127,8 +139,7 @@ export default defineComponent({
 
   .robo-card-label-section .robo-select {
     background-color: var(--color-link) !important;
-    border-width: 0 0 0 1px !important;
-    border-left-color:  var(--color-card-background) !important;
+    border-width: 0 !important;
     height: 100% !important;
   }
 

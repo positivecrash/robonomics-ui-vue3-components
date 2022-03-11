@@ -1,10 +1,4 @@
 <template>
-    <!-- <component
-        :is="tagTitle"
-        :class="classList"
-    >
-        <slot/>
-    </component> -->
 
     <div
         :class="classList"
@@ -50,6 +44,7 @@ export default defineComponent({
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
+    margin-bottom: var(--space);
   }
 
   .robo-card-title--1 {

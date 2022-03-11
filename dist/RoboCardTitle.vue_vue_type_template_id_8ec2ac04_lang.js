@@ -1,1 +1,1 @@
-"use strict";var e=require("vue");exports.render=function(t,n,s,l,o,r){return e.openBlock(),e.createElementBlock(e.Fragment,null,[e.createCommentVNode(' <component\n        :is="tagTitle"\n        :class="classList"\n    >\n        <slot/>\n    </component> '),e.createElementVNode("div",{class:e.normalizeClass(t.classList)},[e.renderSlot(t.$slots,"default")],2)],2112)};
+"use strict";var e=require("vue");exports.render=function(r,s,t,l,n,o){return e.openBlock(),e.createElementBlock("div",{class:e.normalizeClass(r.classList)},[e.renderSlot(r.$slots,"default")],2)};
